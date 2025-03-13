@@ -1,0 +1,216 @@
+/* ----- Index Page -----  */
+
+.index-page {
+    background-color: #222222;
+    color: white;
+}
+
+/* Header */
+.index-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.index-header-title {
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.index-header-nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.index-header-nav a {
+    background-color: #d9232e;
+    color: white;
+    text-decoration: none;
+}
+
+/* Categories Section */
+.index-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.index-category-title {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    font-family: "Source Code Pro", monospace;
+}
+
+.index-category-content {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    font-family: "Source Code Pro", monospace;
+    display: flex;
+    justify-content: center;
+    opacity: 60%;
+    padding-top: 2rem;
+}
+
+
+/* ----- Login Page -----  */
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    height: 100vh;
+}
+
+/* Login Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login-form button {
+    background-color: #d9232e;
+    color: white;
+    padding: 0.5rem;
+}
+
+/* Error Message */
+.error {
+    padding-top: 0.5rem;
+    font-family: "Source Code Pro", monospace;
+}
+
+/* ----- AnimeList Page -----  */
+
+.animelist-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #222222;
+    color: white;
+}
+
+/* AnimeList Content */
+.animelist-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.animelist-content button {
+    background-color: #d9232e;
+    color: white;
+    padding: 0.25rem;
+    position: relative;
+    bottom: 35px;
+    left: 5px;
+}
+
+.animelist-name {
+    display: flex;
+    justify-content: center;
+    font-family: "Source Code Pro", monospace;
+}
+
+
+/* ----- Search Page -----  */
+
+.search-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    color: white;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.search-bar input {
+    max-width: 300px;
+}
+
+.search-bar button {
+    background-color: #d9232e;
+    color: white;
+    padding: 0.5rem;
+}
+
+/* Search Results */
+.search-results {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-results-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.search-results-image button {
+    background-color: #d9232e;
+    color: white;
+    padding: 0.25rem;
+    position: relative;
+    bottom: 35px;
+    left: 5px;
+}
+
+.search-results-text {
+    font-family: "Source Code Pro", monospace;
+    width: 240px;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+
+/* ----- Other ----- */
+
+/* Anime Image (Small) */
+.anime-image {
+    border-radius: 1rem;
+    height: 225px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 150px;
+}
+
+/* Anime Image (Large) */
+.anime-image-large {
+    border-radius: 1rem;
+    height: 360px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 240px;
+}
