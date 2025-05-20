@@ -1,7 +1,7 @@
 # AnimeList
 
 #### Video Demo:
-(Add link to video demo here)
+https://youtu.be/zluFiJPGe70
 
 #### Description:
 Flask project that allows users to search for animes they have watched or view the latest/most popular animes. This is achieved using the Jikan API, which accesses data from MyAnimeList. Users can add and track animes they've previously watched and remove any added incorrectly. Multiple users can access their own individual anime lists via their accounts.
